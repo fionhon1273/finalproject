@@ -15,9 +15,11 @@ var eight = urlParams.get('ans8');
 var nine = urlParams.get('ans9');
 var ten = urlParams.get('ans10');
 
+
+
 var answers = "";
 var i;
-for (i = 0; i < 10; i++) {
+for (i = 0; i =< 10; i++) {
   answers +=  ;
 }
 // console.log(urlParams.has('ans1')); // true
