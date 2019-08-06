@@ -13,4 +13,7 @@ var results= {"babbaaaaab":"Calista", "bbbaaabaab":"Mame Diarra", "aabbaaabab":"
 // console.log(urlParams.get('ans1'));
 if (answers in results){
   console.log(results[answers]);
+  document.getElementById("result").innerHTML = (results[answers])
+} else{
+  
 }
