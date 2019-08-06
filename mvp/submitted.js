@@ -15,5 +15,20 @@ if (answers in results){
   console.log(results[answers]);
   document.getElementById("result").innerHTML = (results[answers])
 } else{
-  
+    for(answers in results) {
+      var value = results[answers];
+      document.getElementById("result").innerHTML = value
+    }
+
 }
+//
+// for(answers in results) {
+//   var value = results[answers];
+//
+// }
+//
+// var anysize = 1;//the size of string
+// result="";
+// for( var i=0; i < anysize; i++ )
+//         result += results[Math.floor(Math.random() * results.length)];
+// console.log(result);
