@@ -20,30 +20,3 @@ else{
     var rand = Object.values(results);
     document.getElementById("result").innerHTML = rand[Math.floor(Math.random() * rand.length)];
 }
-
-//
-// if (answers in results){
-//   console.log(results[answers]);
-//   document.getElementById("result").innerHTML = (results[answers]);
-// } else{
-//   for(i = 1; i <= 10; i++) {
-//     document.getElementById("result").innerHTML = (results[`ans${i}`]);
-//   }
-// }
-//
-// var randomProperty = function (results) {
-//   var keys = Object.keys(object);
-//   return object[keys[Math.floor(keys.length * Math.random())]];
-// };
-
-//
-// for(answers in results) {
-//   var value = results[answers];
-//
-// }
-//
-// var anysize = 1;//the size of string
-// result="";
-// for( var i=0; i < anysize; i++ )
-//         result += results[Math.floor(Math.random() * results.length)];
-// console.log(result);
