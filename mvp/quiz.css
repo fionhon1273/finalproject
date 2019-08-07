@@ -31,6 +31,8 @@ h1{
 
 body {
     background-image: url("back4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
   }
 
 #image{
