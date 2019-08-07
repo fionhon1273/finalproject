@@ -83,3 +83,9 @@ details {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+#p{
+    font-family: 'Yeseva One', cursive;
+    width: 500px;
+    padding: auto;
+}
