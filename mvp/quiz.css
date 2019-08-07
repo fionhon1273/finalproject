@@ -71,7 +71,7 @@ body {
 }
 
 #button {
-    
+
     text-align: center;
     width: 100%
 }
@@ -85,8 +85,7 @@ details {
     padding-right: 50px;
 }
 
-
-/* p {
-    width: 600px;
-    text-align: justify;
-} *w
+p{
+  width: 600px;
+  text-align: justify;
+}
