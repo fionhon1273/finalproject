@@ -1,3 +1,4 @@
+
 var urlParams = new URLSearchParams(window.location.search);
 
 var i;
@@ -23,5 +24,5 @@ if (answers in results){
 else{
     var rand = Object.values(results);
     document.getElementById("result").innerHTML = rand[Math.floor(Math.random() * rand.length)];
-    
+
 }
