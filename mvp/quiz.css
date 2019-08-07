@@ -71,10 +71,6 @@ body {
 }
 
 #button {
-<<<<<<< HEAD
-=======
-
->>>>>>> 4eb2d57df992c6ce013b29a14a7707c433377340
     text-align: center;
     width: 100%
 }
@@ -83,20 +79,7 @@ body {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-p {
-    width: 600px;
-    text-align: center;
-    *w
-}
-=======
 details {
     padding-left: 50px;
     padding-right: 50px;
 }
-
-p{
-  width: 600px;
-  text-align: center;
-}
->>>>>>> 4eb2d57df992c6ce013b29a14a7707c433377340
