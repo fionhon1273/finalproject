@@ -71,7 +71,6 @@ body {
 }
 
 #button {
-    
     text-align: center;
     width: 100%
 }
@@ -80,8 +79,8 @@ body {
     margin-top: 20px;
 }
 
-
-/* p {
+p {
     width: 600px;
-    text-align: justify;
-} *w
+    text-align: center;
+    *w
+}
