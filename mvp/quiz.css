@@ -30,7 +30,9 @@ h1{
 }
 
 body {
-    background-image: url("back4.jpg");
+    background-image: url("blah.jpg");
+    background-repeat: fill;
+    background-attachment: scroll;
   }
 
 #image{
