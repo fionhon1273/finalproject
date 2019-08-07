@@ -1,72 +1,89 @@
 <!DOCTYPE html>
 <!-- this is the screen that asks you all the questions -->
 <html>
-  <head>
-      <link rel="stylesheet" href="quiz.css">
-      <link href="https://fonts.googleapis.com/css?family=Comfortaa|Didact+Gothic|Yeseva+One&display=swap" rel="stylesheet">
-    
-      <h1>Girls Who Code Personality Test!</h1>
+
+<head>
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Didact+Gothic|Yeseva+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row">
+        <h1>Girls Who Code Personality Test!</h1>
+        <div id="padding">
+            <form action="submitted.html" method="get" id="formpadding">
+
+                <div class="question">
+                    <p class="q">1) You see a train moving toward five tied-up strangers lying on the tracks. You are standing next to a lever that controls a switch. If you pull the lever, the train will be redirected onto a side track, and the five strangers on
+                        the main track will be saved. However, there is a loved one lying on the side track. Who do you save? </p>
+                    <input type="radio" name="ans1" value="a"> Loved One
+                    <input type="radio" name="ans1" value="b"> 5 Strangers
+                </div>
+
+                <div class="question">
+                    <p class="q"> 2) How often do you go out? </p>
+                    <input type="radio" name="ans2" value="a"> Often
+                    <input type="radio" name="ans2" value="b"> Rarely
+                </div>
+
+                <div class="question">
+                    <p class="q">3) What is the best idea for a first date? </p>
+                    <input type="radio" name="ans3" value="a"> Movie
+                    <input type="radio" name="ans3" value="b"> Dinner
+                </div>
+
+                <div class="question">
+                    <p class="q">4) At a party do you.. </p>
+                    <input type="radio" name="ans4" value="a"> Socialize
+                    <input type="radio" name="ans4" value="b"> Disassociate
+                </div>
+
+                <div class="question">
+                    <p class="q">5) In a group project do you.. </p>
+                    <input type="radio" name="ans5" value="a"> Lead the group
+                    <input type="radio" name="ans5" value="b"> Follow the leader
+                </div>
+
+                <div class="question">
+                    <p class="q">6) Do you say sorry too much? </p>
+                    <input type="radio" name="ans6" value="a"> Yes
+                    <input type="radio" name="ans6" value="b"> No
+                </div>
+
+                <div class="question">
+                    <p class="q">7) Is the cup half empty or half full? </p>
+                    <input type="radio" name="ans7" value="a"> Half full
+                    <input type="radio" name="ans7" value="b"> Half empty
+                </div>
+
+                <div class="question">
+                    <p class="q"> 8) If stranded on an island, will you... </p>
+                    <input type="radio" name="ans8" value="a"> Fight to survive
+                    <input type="radio" name="ans8" value="b"> Die within the first 3 days
+                </div>
 
 
-  </head>
-  <body>
-      <div class="row">
-          <div class="column">
+                <div class="question">
+                    <p class="q">9) Do you believe in ghosts? </p>
+                    <input type="radio" name="ans9" value="a"> Yes
+                    <input type="radio" name="ans9" value="b"> No
+                </div>
 
-            <form action="submitted.html" method="get">
+                <div class="question">
+                    <p class="q">10) Do you shower in the day or night? </p>
+                    <input type="radio" name="ans10" value="a"> Day
+                    <input type="radio" name="ans10" value="b"> Night
+                </div>
 
-              <div id="ques1"><b>1) You see a train moving toward five tied-up strangers lying on the tracks. You are standing next to a lever that controls a switch. If you pull the lever, the train will be redirected onto a side track, and the five strangers on the main track will be saved. However, there is a loved one lying on the side track. Who do you save?</b></div>
-              <h5><input type="radio" name="ans1" value="a"> Loved One <br></h5>
-              <h5><input type="radio" name="ans1" value="b"> 5 Strangers<br></h5>
+                <div id="button">
+                    <button id="buttonsubmit" type="submit">
+                      <img src="button.jpg" id="but" />
+                    </button>
+                </div>
 
-              <h3>2) How often do you go out?</h3>
-              <h5><input type="radio" name="ans2" value="a"> Often<br></h5>
-              <h5><input type="radio" name="ans2" value="b"> Rarely<br></h5>
+            </form>
+        </div>
+    </div>
+</body>
 
-              <h3>3) What is the best idea for a first date?</h3>
-              <h5><input type="radio" name="ans3" value="a"> Movie<br></h5>
-              <h5><input type="radio" name="ans3" value="b"> Dinner<br></h5>
-
-              <h3>4) At a party do you..</h3>
-              <h5><input type="radio" name="ans4" value="a"> Socialize<br></h5>
-              <h5><input type="radio" name="ans4" value="b"> Disassociate<br></h5>
-
-              <h3>5) In a group project do you..</h3>
-              <h5><input type="radio" name="ans5" value="a"> Lead the group<br></h5>
-              <h5><input type="radio" name="ans5" value="b"> Follow the leader<br></h5>
-          </div>
-
-          <div class="column"></div>
-
-              <h3>6) Do you say sorry too much?</h3>
-              <h5><input type="radio" name="ans6" value="a"> Yes<br></h5>
-              <h5><input type="radio" name="ans6" value="b"> No<br></h5>
-
-              <h3>7) Is the cup half empty or half full?</h3>
-              <h5><input type="radio" name="ans7" value="a"> Half full<br></h5>
-              <h5><input type="radio" name="ans7" value="b"> Half empty<br></h5>
-
-              <h3>8) If stranded on an island, will you...</h3>
-              <h5><input type="radio" name="ans8" value="a"> Fight to survive<br></h5>
-              <h5><input type="radio" name="ans8" value="b"> Die within the first 3 days<br></h5>
-
-              <h3>9) Do you believe in ghosts?</h3>
-              <h5><input type="radio" name="ans9" value="a"> Yes<br></h5>
-              <h5><input type="radio" name="ans9" value="b"> No<br></h5>
-
-              <h3>10) Do you shower in the day or night?</h3>
-              <h5><input type="radio" name="ans10" value="a"> Day<br></h5>
-              <h5><input type="radio" name="ans10" value="b"> Night<br></h5>
-          </div>
-      </div>
-      <center><button type="submit" name="submit">
-          <img src="button.jpg" id="but"/>
-      </button></center>
-     
-     
-      <!-- <div id="sub"><button type="submit">Submit</button></sub> -->
-    </form>
-
-
-  </body>
 </html>

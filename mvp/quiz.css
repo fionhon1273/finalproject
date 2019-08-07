@@ -1,29 +1,31 @@
-h3{
+/* h3 {
     font-family: 'Comfortaa', cursive;
     font-size: 30px;
     text-align: center;
-}
+} */
 
-#ques1{
+
+/* #ques1 {
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
     text-align: center;
-}
+} */
 
-h5{
+
+/* h5 {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 25px;
     text-align: center;
-}
+} */
 
-h1{
+h1 {
     font-family: 'Yeseva One', cursive;
     font-size: 50px;
     text-align: center;
-    text-shadow:3px 1px blue;
+    text-shadow: 3px 1px blue;
 }
 
-#but{
+#but {
     margin: auto;
     width: 30px;
     height: 30px;
@@ -33,20 +35,52 @@ body {
     background-image: url("blah.jpg");
     background-repeat: fill;
     background-attachment: scroll;
-  }
+    margin: auto;
+}
 
-#image{
+#image {
     margin: auto;
     width: 30px;
     height: 30px;
 }
 
-#description{
-  font-size: 25px;
-  text-align: center;
+#description {
+    font-size: 25px;
+    text-align: center;
 }
 
-p {
-  width: 600px;
-  text-align: justify;
-   }
+.question {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 22px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.q {
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#formpadding {
+    padding-top: 20px;
+}
+
+#padding {
+    padding-bottom: 50px;
+}
+
+#button {
+    text-align: center;
+    width: 100%
+}
+
+#buttonsubmit {
+    margin-top: 20px;
+}
+
+
+/* p {
+    width: 600px;
+    text-align: justify;
+} *w
