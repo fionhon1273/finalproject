@@ -80,7 +80,6 @@ body {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
 details {
     padding-left: 50px;
     padding-right: 50px;
@@ -88,12 +87,5 @@ details {
 
 p{
   width: 600px;
-  text-align: justify;
+  text-align: center;
 }
-=======
-
-/* p {
-    width: 600px;
-    text-align: justify;
-} *w
->>>>>>> 12a89e2208367ea28bb3dde79e8073c17f60abae
