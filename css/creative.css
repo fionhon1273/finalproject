@@ -10985,7 +10985,7 @@ header.masthead {
     background-size: cover;
 }
 
-.about{
+header.wit {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/pooja.jpg");
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/pooja.jpg");
   background-position: center;
