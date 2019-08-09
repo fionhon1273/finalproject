@@ -32,10 +32,15 @@ h1 {
 }
 
 body {
-    background-image: url("blah.jpg");
-    background-repeat: fill;
+    /* background-image: url("blah.jpg");
+    background-repeat: no-repeat;
     background-attachment: scroll;
-    margin: auto;
+    margin: auto; */
+    background: url("blah.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #image {
