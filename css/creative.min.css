@@ -7204,7 +7204,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #20c997!important
+    background: url("../mvp/pooja.jpg");
+    background:  url("../mvp/pooja.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover; 
+    background-color: #20c997!important 
 }
 
 a.bg-primary:focus,
