@@ -153,7 +153,8 @@ blockquote {
 
 b,
 strong {
-    font-weight: bolder
+    font-weight: bolder;
+    font-size: 25px
 }
 
 small {
@@ -10672,7 +10673,12 @@ button.bg-dark:hover {
 }
 
 .text-white {
-    color: #fff!important
+    color: #fff!important;
+}
+
+.text-whitey {
+    font-size: 25px;
+    color: #fff!important;
 }
 
 .text-primary {
